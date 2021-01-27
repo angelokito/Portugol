@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kitoc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-26 04:58:45 "/>
+        <attribute name="created" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjY7IjA0OjA3OjM2ICI7MjcyMw=="/>
+        <attribute name="edited" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjY7IjA0OjU4OjQ1ICI7MTsyODM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Tabuada&quot;" newline="True"/>
+            <declare name="n1, n2" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="0"/>
+            <assign variable="n2" expression="10"/>
+            <while expression="n1&lt;=n2">
+                <output expression="&quot;9 x&quot; &amp; n1 &amp;&quot;=&quot; &amp; 9*n1" newline="True"/>
+                <assign variable="n1" expression="n1+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

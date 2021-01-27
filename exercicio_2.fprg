@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kitoc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-26 03:42:22 "/>
+        <attribute name="created" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjY7IjAxOjQzOjM1ICI7MjcxOQ=="/>
+        <attribute name="edited" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjY7IjAzOjQyOjIyICI7MTsyODI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Coloque o primeiro numero&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Segundo numero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="result" expression="n1*n2"/>
+            <output expression="&quot;Resultado:&quot;" newline="True"/>
+            <output expression="result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

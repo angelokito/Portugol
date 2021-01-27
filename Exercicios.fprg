@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kitoc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-24 08:18:06 "/>
+        <attribute name="created" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjM7IjA3OjUxOjU4ICI7MjcyNg=="/>
+        <attribute name="edited" value="a2l0b2M7REVTS1RPUC0yQzI5QzJIOzIwMjEtMDEtMjQ7IjA4OjE4OjA2ICI7MjsyODMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a Primeira nota&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a Ultima nota&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="nota1+nota2+nota3+nota4/4"/>
+            <if expression="media&lt;6">
+                <then>
+                    <output expression="&quot;Mas que Burro da zero pra ele&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A nota final &#233;:&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
